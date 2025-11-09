@@ -79,7 +79,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Food List</a></li>
+                <li class="nav-item"><a class="nav-link active" href="{% url 'add_food' %}">Add New Food</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Goals</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
             </ul>
@@ -151,13 +151,16 @@
         </div>
 
         <!-- Chart Column -->
-        <div class="col-md-6">
+        <div class="col-md-6 text-center">
             <h4>Today's Breakdown</h4>
-            <div class="card-header text-white bg-primary mb-2">
-                <h4>Macronutrients Breakdown</h4>
+        
+            <div class="card-header text-white bg-primary mb-2 text-center">
+                <h4 class="text-warning m-0">Macronutrients Breakdown</h4>
             </div>
+        
             <canvas id="acquisitions"></canvas>
         </div>
+
     </div>
 </div>
 
