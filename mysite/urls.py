@@ -20,5 +20,6 @@ from myapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('foods/',views.index,name='index'),
+    path('',views.index,name='index'),
+    path('delete/<int:id>/',views.delete_consume,name='delete')
 ]
