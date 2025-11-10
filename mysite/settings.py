@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-p!6)(%736ooq@^3!-k72vnh_^6d^ifvn84b9@(1x2wfm)0syed
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['personal-calorie-tracker.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['personal-calorie-tracker-0b27b1578982.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 
